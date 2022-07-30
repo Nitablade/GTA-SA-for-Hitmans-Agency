@@ -8,8 +8,9 @@
 
 # Что нужно для запуска?
 
-- Microsoft Visual C++ Redistributable: для 32bit систем -  https://aka.ms/vs/16/release/vc_redist.x86.exe
-                                        для 64bit систем -  https://aka.ms/vs/16/release/vc_redist.x64.exe
+Microsoft Visual C++ Redistributable: 
+- для 32bit систем -  https://aka.ms/vs/16/release/vc_redist.x86.exe
+- для 64bit систем -  https://aka.ms/vs/16/release/vc_redist.x64.exe
 
 # Что внутри?
 
