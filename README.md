@@ -2,11 +2,14 @@
 
 Как скачать: Кликайте на архив справа, в разделе Release
 
-Готовая "сборка" для только вступивших агентов, ещё не познавших всю прелесть симулятора ожидания aka Агентства Наёмных убийц на GalaxY RPG. Здесь собрано всё, что нужно хитману для комфортной работы.
+Готовая "сборка" для только вступивших агентов, ещё не познавших всю прелесть симулятора ожидания aka Агентства Наёмных убийц на GalaxY RPG. Здесь собрано всё, что нужно хитману для комфортной работы. Рассчитано на мониторы с разрешением 1920х1080, если у вас другое - нужно будет немного настроить под себя.
+
+ВНИМАНИЕ: Использование скриптов, связанных с работой хитманов, будучи кикнутыми из Агентства - приведут к бану вашего аккаунта.
 
 # Что нужно для запуска?
 
-- Microsoft Visual C++ Redistributable: https://aka.ms/vs/16/release/vc_redist.x86.exe
+- Microsoft Visual C++ Redistributable: для 32bit систем -  https://aka.ms/vs/16/release/vc_redist.x86.exe
+                                        для 64bit систем -  https://aka.ms/vs/16/release/vc_redist.x64.exe
 
 # Что внутри?
 
@@ -17,13 +20,49 @@
 - Moonloader 027.0-preview3
 
 CLEO:
-- SniperZoom.cs (Позволяет включить увеличенный зум у снайперской винтовки. По умолчанию Y - зум+, H - зум-, настройки хранятся в sniperZoom.ini)
-- memory.cs (Увеличивает буфер памяти, используемый игрой, настройки хранятся в memory.ini)
+- Car Speed FPS Fix.cs (Необходим для FPS Unlock'а, возвращает корректное ускорение и торможение транспорта)
 - HUDfix.cs (Убирает нули у $ в hud'е)
+- memory.cs (Увеличивает буфер памяти, используемый игрой, настройки хранятся в memory.ini)
 - OffRadio.cs (Отключает игровое радио в транспорте)
-SF:
-- sampfuncs-settings (Запускает игру в оконном режиме, оптимизировано для работы с твинка в отсутствие детективов, не перекрывает другие окна и приложения, пока находится вне фокуса)
-- Chatlog.sf (Сохраняет чат-логи по датам в папку \Documents\GTA San Andreas User Files\SAMP\chatlog)
-Lua:
+- SniperZoom.cs (Позволяет включить увеличенный зум у снайперской винтовки. По умолчанию Y - зум+, H - зум-, настройки хранятся в sniperZoom.ini)
 
-Asi:
+SF:
+- Chatlog.sf (Сохраняет чат-логи по датам в папку \Documents\GTA San Andreas User Files\SAMP\chatlog)
+- sampfuncs-settings.ini (Запускает игру в оконном режиме, оптимизировано для работы с твинка в отсутствие детективов, не перекрывает другие окна и приложения, пока находится вне фокуса)
+
+LUA:
+- audiostream.lua
+- BetterPortable_v1.2.1.luac
+- BufferCleanerAuto.lua
+- BulletTrack.luac
+- camhackww.lua
+- Checker.luac
+- Checker_All_Online.lua
+- comfortableAiming.lua
+- Contract_Position_with_lines.lua
+- fuck_clouds.luac
+- fogdist.lua
+- Hitman_Manager-prot.luac
+- InputHelper.lua
+- PM Manager.luac
+- reload_all.lua
+- SA_Bind-prot.luac
+- sensfix.luac
+- setWeather_Time
+- SplitString.lua
+- TimerDrugs.luac
+- WeaponHandFix.lua
+
+ASI:
+- anticrasher037.asi
+- FPSUnlockRXByDarkP1xel.asi
+- Fastmap.asi
+- mousefix.asi
+- radarrect.asi
+- Screenshot.asi
+- Swim FPS Fix.asi
+
+По мелочи:
+- HQ иконки оружия и радара
+- Удалена крыша у Infernus и Sultan
+- 
