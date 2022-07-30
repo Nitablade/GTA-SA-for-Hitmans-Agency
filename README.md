@@ -31,8 +31,7 @@ SF:
 - sampfuncs-settings.ini (Запускает игру в оконном режиме, оптимизировано для работы с твинка в отсутствие детективов, не перекрывает другие окна и приложения, пока находится вне фокуса)
 
 LUA:
-- audiostream.lua
-- BetterPortable_v1.2.1.luac
+- BetterPortable_v1.2.1.luac (Моя замена /portable: показывает фракцию и ранг игрока; ник светится зелёным, если находится в зоне стрима; кнопка переключения страниц перенесена на первую строку; выделяет цветом заказы на сумму выше 10.000$; показывает, если игрок был убит, когда вы открыли список.
 - BufferCleanerAuto.lua
 - BulletTrack.luac
 - camhackww.lua
@@ -40,6 +39,7 @@ LUA:
 - Checker_All_Online.lua
 - comfortableAiming.lua
 - Contract_Position_with_lines.lua
+- EnterToChat.lua
 - fuck_clouds.luac
 - fogdist.lua
 - Hitman_Manager-prot.luac
