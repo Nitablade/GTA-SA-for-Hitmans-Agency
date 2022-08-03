@@ -130,5 +130,5 @@ Microsoft Visual C++ Redistributable:
 - Удалена крыша у Infernus и Sultan
 - Замена курсора мыши (mouse) и интерфейса чата и диалоговых окон (sampgui)
 
-
+>  
 При обнаружении проблем - пишите в ЛС Discord'а (**Nitablade#6314**).
